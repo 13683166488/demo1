@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>恒快贷</title>
+<link rel="stylesheet" type="text/css" href="css/basic.css">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<style type="text/css">
+	#cnzz_stat_icon_1260852616{
+		display: none;
+	}
+  .footd ul li dl{
+    margin-left: 58px;
+  }
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d90c6b18f7e0de64657ace889612900b";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+	   $('.banner').addClass('dh');
+    // tab点击变色效果
+    $('.xs li').click(function(event) {
+      $(this).addClass('xh').siblings().removeClass('xh');
+    });
+    //导航点击到指定位置
+    $('#step1').click(function(event) {
+      $("html,body").animate({scrollTop:700},135);
+    });
+    $('#step2').click(function(event) {
+      $("html,body").animate({scrollTop:1645},135);
+    });
+    $('#step3').click(function(event) {
+      $("html,body").animate({scrollTop:2365},135);
+    });
+    $('#step4').click(function(event) {
+      $("html,body").animate({scrollTop:2865},135);
+    });
+    $(window).scroll(function(){
+      var scrollHeight=$(window).scrollTop();
+      if (scrollHeight>200&&scrollHeight<1180) {
+          $('#1').addClass('dh');
+          $('.xs li:nth-child(1)').addClass('xh');
+      }//else{
+//          $('#1').removeClass('dh');
+//
+//      };
+      if (scrollHeight>800&&scrollHeight<1645) {
+          $('#2').addClass('dh');
+      }//else{
+//          $('#2').removeClass('dh');
+//      };
+      if (scrollHeight>1300&&scrollHeight<2315) {
+          $('#3').addClass('dh');
+          $('.xs li:nth-child(2)').addClass('xh');
+          $('.xs li:nth-child(1)').removeClass('xh');
+      }else{
+         // $('#3').removeClass('dh');
+          $('.xs li:nth-child(2)').removeClass('xh');
+      };
+      if (scrollHeight>2300&&scrollHeight<2865) {
+          $('.xs li:nth-child(3)').addClass('xh');
+          $('.xs li:nth-child(4)').removeClass('xh');
+          $('#4').addClass('dh');
+      }else{
+         // $('#4').removeClass('dh');
+         // $('.xs li:nth-child(3)').removeClass('xh');
+
+      };
+	   if (scrollHeight>2300&&scrollHeight<3570) {
+          $('.xs li:nth-child(3)').removeClass('xh');
+          $('.xs li:nth-child(4)').addClass('xh');
+          $('#4').addClass('dh');
+      }else{
+         // $('#4').removeClass('dh');
+
+          $('.xs li:nth-child(4)').removeClass('xh');
+      };
+    })
+  });
+
+</script>
+</head>
+<body>
+  <div class="xsbz">
+	<div class="nav-xs">
+    <h1><a href="index.html">极速现金侠</a></h1>
+    <ul class="xs content">
+        <li class="xh"><a href="javascript:;" id="step1">产品介绍</a></li>
+        <li><a  href="javascript:;"id="step2">业务流程</a></li>
+        <li><a  href="javascript:;"id="step3">关于我们</a></li>
+        <li><a  href="javascript:;"id="step4">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+  <!--nav-->
+  <div class="xjx-main" id="top">
+<div class="banner">
+  <div class="banner1">
+    <div class="ban1" style="width: 290px;">
+    <!--    <a class="clearfix ip" href="" target="_blank">
+       <i><img src="images/iphine.png"></i><span>iPhone版 </span>     </a>  -->
+   <!--     <a class="clearfix an" href="" target="_blank"><i><img src="images/Android.png"></i><span>Android版下载</span></a>  -->
+        <div class="" style="color: #fff;font-size: 48px; margin-top: 8px;"  target="_blank"><span>请扫描二维码下载APP</span></div>
+       </div>
+    <div class="ban2"></div>
+  </div>
+</div><!--banner-->
+<div id="1">
+<div class="active" >
+  <div class="active1">
+    <div class="fl tup"><img src="images/edu_icon.png"></div>
+    <div class="fr nr">
+      <h1>小额度</h1>
+      <h2>3000~20000<em>元</em></h2>
+      <li>按需求自主选择借款金额 ——<span>更灵活</span></li>
+    </div>
+  </div><!--active1-->
+</div>
+<div class="fk_info">
+  <div class="fk_info1">
+    <div class="fr tup1"><img src="images/fk_icon.png"></div>
+    <div class="fl nr">
+      <h1>放款快</h1>
+      <h2>最快<em>5</em>分钟</h2>
+      <li>快速审批急速放款  ——<span>更迅速</span></li>
+    </div>
+  </div>
+  </div>
+</div><!--fk_info-->
+<div class="active"  id="2">
+  <div class="operate">
+    <h1>只需<em>3</em>步操作  便可轻松拿钱<img src="images/h_icon.png"></h1>
+    <ul class=" clearfix">
+      <li class="fl rjt">
+        <dl>
+          <dt><img src="images/yb_icon.png"></dt>
+          <dd>
+            <h4>提交资料</h4>
+          </dd>
+          <dd>
+            <p>据说信息填写越完善 审批速度越快速</p>
+          </dd>
+        </dl>
+      </li>
+      <li class="fl rjt">
+        <dl>
+          <dt><img src="images/eb_icon.png"></dt>
+          <dd>
+            <h4>资料审核</h4>
+          </dd>
+          <dd>
+            <p>审核快速简单 最快仅需1分钟</p>
+          </dd>
+        </dl>
+      </li>
+      <li class="fr">
+        <dl>
+          <dt><img src="images/sb_icon.png"></dt>
+          <dd>
+            <h4>快速放款</h4>
+          </dd>
+          <dd>
+            <p>到账速度快 轻轻松松就能借到钱</p>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+  <!--operate-->
+  </div>
+  <div class="active"  id="3">
+  <div class="gy">
+    <h1>关于<em>恒快贷</em>
+      <p>about hengkuaidai</p>
+      <img src="images/h1_icon.png"></h1>
+    <div class="xjx fl"><img src="images/xjx_icon.png"></div>
+    <!--xjx-->
+    <div class="act fr">
+      <P>恒快贷，是深圳市恒信永利金融服务有限公司旗下的一个纯信用无抵押贷款服务平台，专注于为年轻人提供智能消费金融服务。</P>
+      <P>通过在线自动审批、自动银行放款的方式为用户提供小额、短期的借贷服务。</P>
+      <P> 用户只需提供身份证 + 手机号即可完成注册。全程在线进行操作，极速审批，最快5分钟自动放款。</P>
+	  <P style="font-size:25px;color:red"></P>
+	  <p style="font-size:25px;color:red"></p>
+    </div>
+    <!--act-->
+  </div>
+  <!--gy-->
+</div>
+<!--active-->
+
+<div class="foot" id="4">
+  <div class="footd">
+    <ul>
+      <li class="clearfix">
+        <dl>
+          <dt><img src="images/dh_icon.png"></dt>
+          <dd>
+            <h2>联系电话</h2>
+           <!-- <span>400-185-5918(周一至周五9:00-18:00)</span></dd> -->
+            <span>400-185-5918(周一至周五9:00-18:00)</span></dd>
+        </dl>
+        <dl>
+          <dt><img src="images/qq_icon.png"></dt>
+          <dd>
+            <h2>官方客服QQ</h2>
+            <span>3422254490</span></dd>
+        </dl>
+        <dl>
+          <dt><img src="images/yj_icon.png" alt=""></dt>
+          <dd>
+            <h2>电子邮件</h2>
+            <span><a href="mailto:service@hengxinyongli.com" style="color:#fff">service@hengxinyongli.com</a></span></dd>
+        </dl>
+      </li>
+      <li>
+        <p>深圳市南山区西丽健兴科技大厦B栋4楼</p>
+      </li>
+      <li>
+        <p>Copyright @2017 深圳市恒信永利金融服务有限公司</p>
+      </li>
+      <li>
+        <P><a target="_blank" href="http://www.beianbeian.com/beianxinxi/09fc30d1-115b-46f7-95e4-aa13d7602fdb.html" style="cursor:pointer;color:white">粤ICP备14089326号-2</a></P>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<div id="fh"><img src="images/ht_icon.png" alt=""></div>
+<script type="text/javascript">
+//返回顶部
+$(document).ready(function(){
+  $("#fh").hide();
+    $(window).scroll(function(){
+    if ($(window).scrollTop()>500){
+          $("#fh").fadeIn(500);
+          }
+        else
+          {
+          $("#fh").fadeOut(500);
+          }
+    });
+    $("#fh").click(function(){
+        $('body,html').animate({scrollTop:0},500);
+        return false;
+        });
+
+});
+  </script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260852616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260852616' type='text/javascript'%3E%3C/script%3E"));</script>
+<script>
+$(function(){
+	$.fn.fullpage({
+		slidesColor: ['', '', '', ''],
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		menu: '#menu'
+	});
+});
+</script>
+<!--跳动的箭头-->
+<script type="text/javascript">
+	$(function() {
+	  function tiao(){
+	$('.yd').animate({'top':0,'opacity':1},300,function(){$('.yd').animate({'top':10,'opacity':0},300);})
+	}
+	setInterval(tiao,200);
+
+	});
+</script>
+<!-- 检测为ie9以下则css3样式保持默认 -->
+<script type="text/javascript">
+	if (document.all && !window.atob) {
+		$('.section').addClass('normal');
+		}
+</script>
+
+</body>
+</html>
